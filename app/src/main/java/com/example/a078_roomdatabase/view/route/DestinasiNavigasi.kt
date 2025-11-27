@@ -1,3 +1,6 @@
 package com.example.a078_roomdatabase.view.route
 
-interface DestinasiNavigasi 
+interface DestinasiNavigasi {
+    val route: String
+    val  titleRes: Int
+}
