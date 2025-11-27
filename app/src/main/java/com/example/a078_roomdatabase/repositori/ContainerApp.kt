@@ -8,3 +8,4 @@ interface ContainerApp {
     val repositoriSiswa : RepositoriSiswa
 }
 
+class ContainerDataApp
