@@ -60,4 +60,11 @@ fun HostNavigasi(
             arguments = listOf(navArgument(DestinasiEditSiswa.itemIdArg) {
                 type = NavType.IntType
             })
-        ) 
+        ) {
+            EditSiswaScreen(
+                navigateBack = { navController.popBackStack() },
+                onNavigateUp = { navController.navigateUp() }
+            )
+        }
+    }
+}
